@@ -56,8 +56,19 @@ p,h1 {
   font-family: "Comic Sans MS";
 }
  .btnGUARDAR{
-   sumbit-align: center;
+   text-align: center;
    font-family: "Comic Sans MS";
+   text-align: center;
+   text-transform: uppercase;
+   cursor: pointer;
+   font-size: 10px
  }
+.btnGUARDAR:hover{
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #1abc9c;
+  color: #000;
+  cursor: pointer;
+}
+
 
 </style>
