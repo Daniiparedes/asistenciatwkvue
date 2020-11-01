@@ -3,26 +3,29 @@
 <div id = "Login">
   <form  method="post">
     <div class="imgcontainer">
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      <img src="../assets/school.jpg" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
+      <form action="/Home">
       <label for="uname"><b>Usuario</b></label>
       <input type="text" placeholder="Ingrese Usuario" name="uname" required>
 
       <label for="psw"><b>Contraseña</b></label>
       <input type="password" placeholder="Ingrese Contraseña" name="psw" required>
 
-      <button type="submit">Login</button>
+      <button type="submit">Ingresar</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
+      </form>
     </div>
-    <router-link to="/home"><button type="submit">Login</button></router-link>
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
+         <div class="container" style="background-color:#f1f1f1">
+             <span class="psw">No tiene una cuenta <a href="#">Desea Crear?</a></span>
+         </div>
+             <div class="container" style="background-color:#f1f1f1">
+               <span class="psw">Olvido su Contraseña <a href="#">Desea Restablecer?</a></span>
+             </div>
   </form>
 </div>
 </template>
@@ -51,7 +54,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: #9DCFEB;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -65,12 +68,6 @@ button:hover {
   opacity: 0.8;
 }
 
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
 
 /* Center the avatar image inside this container */
 .imgcontainer {
@@ -80,7 +77,8 @@ button:hover {
 
 /* Avatar image */
 img.avatar {
-  width: 40%;
+  background-size: cover;
+  width: 25%;
   border-radius: 50%;
 }
 
@@ -101,8 +99,6 @@ span.psw {
     display: block;
     float: none;
   }
-  .cancelbtn {
-    width: 100%;
-  }
+
 }
 </style>

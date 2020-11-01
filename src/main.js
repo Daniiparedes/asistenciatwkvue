@@ -5,7 +5,8 @@ import VueRouter from 'vue-router'; //Importamos librería para rutas
 import Login from './components/Login.vue'; //importamos nuestros componentes a utilizar
 import Home from './components/Home.vue';
 import crearestudiante from "@/components/crearestudiante";
-
+import KinderA from "@/components/KinderA";
+import KinderB from "@/components/KinderB";
 
 
 
@@ -18,8 +19,8 @@ const routes = [  //Definimos los path y donde nos llevará cada uno
   { path: '/Login/:id?', name: 'Login', component: Login },  //parámetro opcional (?), para que sea obligatorio se debe quitar el simbolo de pregunta
   { path: '/Home', component: Home },
   { path: '/crearestudiante', component: crearestudiante },
-
-
+  { path: '/KindeA', component: KinderA },
+  { path: '/KindeB', component: KinderB }
 ]
 
 //Creamos el objeto vuerouter
