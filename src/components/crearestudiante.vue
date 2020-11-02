@@ -14,7 +14,7 @@
       Curso:
       <select name="Curso">
         <option>KinderA</option>
-        <option>no existe</option>
+        <option>KinderB</option>
 
       </select>
 

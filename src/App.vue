@@ -22,7 +22,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  background-image: url("./assets/school.jpg");
+  background-image: url("./assets/KinderTWK.jpg");
   background-repeat: no-repeat;
   border:3px solid #000;
   background-size: cover;

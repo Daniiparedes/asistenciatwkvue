@@ -1,61 +1,63 @@
 <template>
-  <div>
-  <table class="egt">
-    <caption>Listado de Alumnos</caption>
-    <h1> Kinder A </h1>
-    <tr>
-      <th scope="col">Estudiante</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-      <th>01/11</th>
-    </tr>
-    <tr>
-      <td>ASDasdasdasdasd</td>
-      <td><select >
-        <option value="volvo">Volvo XC90</option>
-        <option value="saab">Saab 95</option>
-        <option value="mercedes">Mercedes SLK</option>
-        <option value="audi">Audi TT</option>
-      </select>
-      </td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-      <td>ASDasdasdasdasd</td>
-    </tr>
-  </table>
+  <div id="B">
+    <table class="egt">
+      <caption>Listado de Alumnos</caption>
+      <h1> Kinder B </h1>
+      <tr>
+        <th scope="col">Estudiante/Fecha </th>
+        <th><input type="date"></th>
+      </tr>
+      <tr>
+        <td>Daniel Paredes</td>
+        <td><select >
+          <option value="Presente">Presente</option>
+          <option value="Ausente">Ausente</option>
+          <option value="Atrasado">Atrasado</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Felipe Toro</td>
+        <td><select >
+          <option value="Presente">Presente</option>
+          <option value="Ausente">Ausente</option>
+          <option value="Atrasado">Atrasado</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Astu Astudillo</td>
+        <td><select >
+          <option value="Presente">Presente</option>
+          <option value="Ausente">Ausente</option>
+          <option value="Atrasado">Atrasado</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Gustavo </td>
+        <td><select >
+          <option value="Presente">Presente</option>
+          <option value="Ausente">Ausente</option>
+          <option value="Atrasado">Atrasado</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Profesor Cristoferrrrr</td>
+        <td><select >
+          <option value="Presente">Presente</option>
+          <option value="Ausente">Ausente</option>
+          <option value="Atrasado">Atrasado</option>
+        </select>
+        </td>
+      </tr>
+
+    </table>
+
+    <button type="submit">Guardar</button>
+
+    <button type="submit">Modificar</button>
   </div>
 </template>
 
@@ -66,6 +68,9 @@ name: "KinderB"
 </script>
 
 <style scoped>
+#B {
+  height: 100%;
+}
 th, td {
   padding: 15px;
   text-align: left;
